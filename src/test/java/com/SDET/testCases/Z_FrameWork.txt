@@ -82,7 +82,7 @@ Task B:- Implementation of Automation Framework:-
                 1. Maven-compiler-plugin
                 2. Maven -surefire plugin
 
-        3. Execute Test acses throught prompt:-
+        3. Execute Test cases through prompt:-
             a. Maven software download and installed
             b. Set Maven Env Path
             c. maven installed on window
@@ -99,3 +99,10 @@ Task B:- Implementation of Automation Framework:-
 
 
     C. Maintenance
+        1. Sign in top GitHub
+        2. Login into GitHub
+        3. create new repository or share project via IDE
+        4. Clone local git repo to GitHub hub
+        5.
+
+
