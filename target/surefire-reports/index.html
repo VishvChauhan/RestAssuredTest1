@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-RestAssuredTrainingTest">
+              <span class="suite-name border-passed">RestAssuredTrainingTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-RestAssuredTrainingTest">
+                    <span>D:\All Automation Data\RestAssuredTest\testNg.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-RestAssuredTrainingTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-RestAssuredTrainingTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-RestAssuredTrainingTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-RestAssuredTrainingTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-RestAssuredTrainingTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-RestAssuredTrainingTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RestAssuredTrainingTest" class="hide-methods passed suite-RestAssuredTrainingTest"> (hide)</a> <!-- hide-methods passed suite-RestAssuredTrainingTest -->
+                      <a href="#" panel-name="suite-RestAssuredTrainingTest" class="show-methods passed suite-RestAssuredTrainingTest"> (show)</a> <!-- show-methods passed suite-RestAssuredTrainingTest -->
+                    </span>
+                    <div class="method-list-content passed suite-RestAssuredTrainingTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC001_GetAllUsers" hash-for-method="ValidateContentEncoding">ValidateContentEncoding</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC001_GetAllUsers" hash-for-method="ValidateContentType">ValidateContentType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC001_GetAllUsers" hash-for-method="ValidateCookies">ValidateCookies</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC001_GetAllUsers" hash-for-method="ValidateResponseTime">ValidateResponseTime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC001_GetAllUsers" hash-for-method="ValidateServerType">ValidateServerType</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC002_GetUserDetails" hash-for-method="ValidateStatusCode">ValidateStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC001_GetAllUsers" hash-for-method="ValidateStatusCode">ValidateStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC001_GetAllUsers" hash-for-method="ValidateStatusLine">ValidateStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC002_GetUserDetails" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC001_GetAllUsers" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC004_PUTCreateUser" hash-for-method="checkResponseBody">checkResponseBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC004_PUTCreateUser" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC005_DeleteUserRecord" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC004_PUTCreateUser" hash-for-method="checkStatusLine">checkStatusLine</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC003_POSTCreateUser" hash-for-method="createNewUsers(vishu, boss)">createNewUsers(vishu, boss)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC003_POSTCreateUser" hash-for-method="createNewUsers(morpheus, leader)">createNewUsers(morpheus, leader)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC004_PUTCreateUser" hash-for-method="tearDown">tearDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC001_GetAllUsers" hash-for-method="tearDown">tearDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC002_GetUserDetails" hash-for-method="tearDown">tearDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC003_POSTCreateUser" hash-for-method="tearDown">tearDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RestAssuredTrainingTest" title="com.SDET.testCases.TC005_DeleteUserRecord" hash-for-method="validateUserDeletion">validateUserDeletion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RestAssuredTrainingTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RestAssuredTrainingTest" class="panel RestAssuredTrainingTest">
+          <div class="suite-RestAssuredTrainingTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SDET.testCases.TC004_PUTCreateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseBody">
+                  </a> <!-- checkResponseBody -->
+                  <span class="method-name">checkResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine">
+                  </a> <!-- checkStatusLine -->
+                  <span class="method-name">checkStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tearDown">
+                  </a> <!-- tearDown -->
+                  <span class="method-name">tearDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestAssuredTrainingTest-class-passed -->
+          <div class="suite-RestAssuredTrainingTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SDET.testCases.TC003_POSTCreateUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewUsers(vishu, boss)">
+                  </a> <!-- createNewUsers(vishu, boss) -->
+                  <span class="method-name">createNewUsers</span>
+                  <span class="parameters">(vishu, boss)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewUsers(morpheus, leader)">
+                  </a> <!-- createNewUsers(morpheus, leader) -->
+                  <span class="method-name">createNewUsers</span>
+                  <span class="parameters">(morpheus, leader)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tearDown">
+                  </a> <!-- tearDown -->
+                  <span class="method-name">tearDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestAssuredTrainingTest-class-passed -->
+          <div class="suite-RestAssuredTrainingTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SDET.testCases.TC005_DeleteUserRecord</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode">
+                  </a> <!-- checkStatusCode -->
+                  <span class="method-name">checkStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserDeletion">
+                  </a> <!-- validateUserDeletion -->
+                  <span class="method-name">validateUserDeletion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestAssuredTrainingTest-class-passed -->
+          <div class="suite-RestAssuredTrainingTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SDET.testCases.TC001_GetAllUsers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateContentEncoding">
+                  </a> <!-- ValidateContentEncoding -->
+                  <span class="method-name">ValidateContentEncoding</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateContentType">
+                  </a> <!-- ValidateContentType -->
+                  <span class="method-name">ValidateContentType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateCookies">
+                  </a> <!-- ValidateCookies -->
+                  <span class="method-name">ValidateCookies</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateResponseTime">
+                  </a> <!-- ValidateResponseTime -->
+                  <span class="method-name">ValidateResponseTime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateServerType">
+                  </a> <!-- ValidateServerType -->
+                  <span class="method-name">ValidateServerType</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateStatusCode">
+                  </a> <!-- ValidateStatusCode -->
+                  <span class="method-name">ValidateStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateStatusLine">
+                  </a> <!-- ValidateStatusLine -->
+                  <span class="method-name">ValidateStatusLine</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseBody">
+                  </a> <!-- checkResponseBody -->
+                  <span class="method-name">checkResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tearDown">
+                  </a> <!-- tearDown -->
+                  <span class="method-name">tearDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestAssuredTrainingTest-class-passed -->
+          <div class="suite-RestAssuredTrainingTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.SDET.testCases.TC002_GetUserDetails</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ValidateStatusCode">
+                  </a> <!-- ValidateStatusCode -->
+                  <span class="method-name">ValidateStatusCode</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseBody">
+                  </a> <!-- checkResponseBody -->
+                  <span class="method-name">checkResponseBody</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tearDown">
+                  </a> <!-- tearDown -->
+                  <span class="method-name">tearDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RestAssuredTrainingTest-class-passed -->
+        </div> <!-- panel RestAssuredTrainingTest -->
+        <div panel-name="test-xml-RestAssuredTrainingTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\All Automation Data\RestAssuredTest\testNg.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;RestAssuredTrainingTest&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.SDET.utilities.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;RestAssuredTrainingTest&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.SDET.testCases.TC001_GetAllUsers&quot;/&gt;
+      &lt;class name=&quot;com.SDET.testCases.TC002_GetUserDetails&quot;/&gt;
+      &lt;class name=&quot;com.SDET.testCases.TC003_POSTCreateUser&quot;/&gt;
+      &lt;class name=&quot;com.SDET.testCases.TC004_PUTCreateUser&quot;/&gt;
+      &lt;class name=&quot;com.SDET.testCases.TC005_DeleteUserRecord&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RestAssuredTrainingTest --&gt;
+&lt;/suite&gt; &lt;!-- RestAssuredTrainingTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RestAssuredTrainingTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RestAssuredTrainingTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RestAssuredTrainingTest (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RestAssuredTrainingTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RestAssuredTrainingTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RestAssuredTrainingTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RestAssuredTrainingTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RestAssuredTrainingTest');
+function tableData_RestAssuredTrainingTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createNewUsers')
+data.setCell(0, 2, 'com.SDET.testCases.TC003_POSTCreateUser')
+data.setCell(0, 3, 549);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createNewUsers')
+data.setCell(1, 2, 'com.SDET.testCases.TC003_POSTCreateUser')
+data.setCell(1, 3, 518);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkResponseBody')
+data.setCell(2, 2, 'com.SDET.testCases.TC004_PUTCreateUser')
+data.setCell(2, 3, 11);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'ValidateCookies')
+data.setCell(3, 2, 'com.SDET.testCases.TC001_GetAllUsers')
+data.setCell(3, 3, 9);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateUserDeletion')
+data.setCell(4, 2, 'com.SDET.testCases.TC005_DeleteUserRecord')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkStatusCode')
+data.setCell(5, 2, 'com.SDET.testCases.TC004_PUTCreateUser')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkStatusLine')
+data.setCell(6, 2, 'com.SDET.testCases.TC004_PUTCreateUser')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkStatusCode')
+data.setCell(7, 2, 'com.SDET.testCases.TC005_DeleteUserRecord')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'ValidateContentEncoding')
+data.setCell(8, 2, 'com.SDET.testCases.TC001_GetAllUsers')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkResponseBody')
+data.setCell(9, 2, 'com.SDET.testCases.TC002_GetUserDetails')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkResponseBody')
+data.setCell(10, 2, 'com.SDET.testCases.TC001_GetAllUsers')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'ValidateStatusCode')
+data.setCell(11, 2, 'com.SDET.testCases.TC002_GetUserDetails')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tearDown')
+data.setCell(12, 2, 'com.SDET.testCases.TC004_PUTCreateUser')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'ValidateStatusCode')
+data.setCell(13, 2, 'com.SDET.testCases.TC001_GetAllUsers')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tearDown')
+data.setCell(14, 2, 'com.SDET.testCases.TC001_GetAllUsers')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'ValidateStatusLine')
+data.setCell(15, 2, 'com.SDET.testCases.TC001_GetAllUsers')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'ValidateResponseTime')
+data.setCell(16, 2, 'com.SDET.testCases.TC001_GetAllUsers')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'tearDown')
+data.setCell(17, 2, 'com.SDET.testCases.TC002_GetUserDetails')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'tearDown')
+data.setCell(18, 2, 'com.SDET.testCases.TC003_POSTCreateUser')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ValidateContentType')
+data.setCell(19, 2, 'com.SDET.testCases.TC001_GetAllUsers')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ValidateServerType')
+data.setCell(20, 2, 'com.SDET.testCases.TC001_GetAllUsers')
+data.setCell(20, 3, 0);
+window.suiteTableData['RestAssuredTrainingTest']= { tableData: data, tableDiv: 'times-div-RestAssuredTrainingTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-RestAssuredTrainingTest">
+              </div> <!-- times-div-RestAssuredTrainingTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RestAssuredTrainingTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RestAssuredTrainingTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RestAssuredTrainingTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RestAssuredTrainingTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SDET.testCases.TC004_PUTCreateUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">updateEmployee</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkResponseBody</span>
+                <span class="method-start">1617 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">1635 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SDET.testCases.TC005_DeleteUserRecord</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">deleteUserRecord</span>
+                <span class="method-start">1636 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode</span>
+                <span class="method-start">2154 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SDET.testCases.TC004_PUTCreateUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine</span>
+                <span class="method-start">2155 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SDET.testCases.TC003_POSTCreateUser</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">2156 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createNewUsers(morpheus, leader)</span>
+                <span class="method-start">2158 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">createNewUsers(vishu, boss)</span>
+                <span class="method-start">2708 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SDET.testCases.TC005_DeleteUserRecord</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateUserDeletion</span>
+                <span class="method-start">3228 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SDET.testCases.TC001_GetAllUsers</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">3232 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkResponseBody</span>
+                <span class="method-start">3726 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SDET.testCases.TC002_GetUserDetails</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">3727 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkResponseBody</span>
+                <span class="method-start">3870 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateStatusCode</span>
+                <span class="method-start">3871 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SDET.testCases.TC001_GetAllUsers</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">ValidateStatusCode</span>
+                <span class="method-start">3871 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateResponseTime</span>
+                <span class="method-start">3872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateStatusLine</span>
+                <span class="method-start">3872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateServerType</span>
+                <span class="method-start">3873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateContentEncoding</span>
+                <span class="method-start">3873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateContentType</span>
+                <span class="method-start">3873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ValidateCookies</span>
+                <span class="method-start">3874 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3883 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SDET.testCases.TC002_GetUserDetails</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3883 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SDET.testCases.TC004_PUTCreateUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3884 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.SDET.testCases.TC003_POSTCreateUser</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3884 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

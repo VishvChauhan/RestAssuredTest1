@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "RestAssuredTrainingTest" >
+
+    <listeners>
+        <listener class-name="com.SDET.utilities.Listeners"/>
+    </listeners>
+
+    <test name="RestAssuredTrainingTest" verbose="1" parallel="tests" thread-count="1">
+        <classes>
+                <class name ="com.SDET.testCases.TC001_GetAllUsers"/>
+                <class name ="com.SDET.testCases.TC002_GetUserDetails"/>
+                <class name ="com.SDET.testCases.TC003_POSTCreateUser"/>
+                <class name ="com.SDET.testCases.TC004_PUTCreateUser"/>
+                <class name ="com.SDET.testCases.TC005_DeleteUserRecord"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="21" passed="21">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RestAssuredTrainingTest" duration-ms="4038" started-at="2022-05-04T20:17:17 IST" finished-at="2022-05-04T20:17:21 IST">
+    <groups>
+    </groups>
+    <test name="RestAssuredTrainingTest" duration-ms="4038" started-at="2022-05-04T20:17:17 IST" finished-at="2022-05-04T20:17:21 IST">
+      <class name="com.SDET.testCases.TC001_GetAllUsers">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.SDET.testCases.TC001_GetAllUsers@64729b1e]" name="SetUp" is-config="true" duration-ms="493" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:1, instance:com.SDET.testCases.TC001_GetAllUsers@64729b1e]" name="checkResponseBody" duration-ms="0" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="ValidateStatusCode()[pri:2, instance:com.SDET.testCases.TC001_GetAllUsers@64729b1e]" name="ValidateStatusCode" duration-ms="0" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method status="PASS" signature="ValidateResponseTime()[pri:3, instance:com.SDET.testCases.TC001_GetAllUsers@64729b1e]" name="ValidateResponseTime" duration-ms="0" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateResponseTime -->
+        <test-method status="PASS" signature="ValidateStatusLine()[pri:4, instance:com.SDET.testCases.TC001_GetAllUsers@64729b1e]" name="ValidateStatusLine" duration-ms="0" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusLine -->
+        <test-method status="PASS" signature="ValidateServerType()[pri:6, instance:com.SDET.testCases.TC001_GetAllUsers@64729b1e]" name="ValidateServerType" duration-ms="0" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateServerType -->
+        <test-method status="PASS" signature="ValidateContentEncoding()[pri:7, instance:com.SDET.testCases.TC001_GetAllUsers@64729b1e]" name="ValidateContentEncoding" duration-ms="1" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateContentEncoding -->
+        <test-method status="PASS" signature="ValidateContentType()[pri:5, instance:com.SDET.testCases.TC001_GetAllUsers@64729b1e]" name="ValidateContentType" duration-ms="0" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateContentType -->
+        <test-method status="PASS" signature="ValidateCookies()[pri:8, instance:com.SDET.testCases.TC001_GetAllUsers@64729b1e]" name="ValidateCookies" duration-ms="9" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCookies -->
+        <test-method status="PASS" signature="tearDown()[pri:9, instance:com.SDET.testCases.TC001_GetAllUsers@64729b1e]" name="tearDown" duration-ms="0" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SDET.testCases.TC001_GetAllUsers -->
+      <class name="com.SDET.testCases.TC004_PUTCreateUser">
+        <test-method status="PASS" signature="updateEmployee()[pri:0, instance:com.SDET.testCases.TC004_PUTCreateUser@1e965684]" name="updateEmployee" is-config="true" duration-ms="1612" started-at="2022-05-04T20:17:18 IST" finished-at="2022-05-04T20:17:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEmployee -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.SDET.testCases.TC004_PUTCreateUser@1e965684]" name="checkResponseBody" duration-ms="11" started-at="2022-05-04T20:17:19 IST" finished-at="2022-05-04T20:17:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.SDET.testCases.TC004_PUTCreateUser@1e965684]" name="checkStatusCode" duration-ms="1" started-at="2022-05-04T20:17:19 IST" finished-at="2022-05-04T20:17:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.SDET.testCases.TC004_PUTCreateUser@1e965684]" name="checkStatusLine" duration-ms="1" started-at="2022-05-04T20:17:20 IST" finished-at="2022-05-04T20:17:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:9, instance:com.SDET.testCases.TC004_PUTCreateUser@1e965684]" name="tearDown" duration-ms="0" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SDET.testCases.TC004_PUTCreateUser -->
+      <class name="com.SDET.testCases.TC005_DeleteUserRecord">
+        <test-method status="PASS" signature="deleteUserRecord()[pri:0, instance:com.SDET.testCases.TC005_DeleteUserRecord@4d95d2a2]" name="deleteUserRecord" is-config="true" duration-ms="518" started-at="2022-05-04T20:17:19 IST" finished-at="2022-05-04T20:17:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserRecord -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.SDET.testCases.TC005_DeleteUserRecord@4d95d2a2]" name="checkStatusCode" duration-ms="1" started-at="2022-05-04T20:17:20 IST" finished-at="2022-05-04T20:17:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="validateUserDeletion()[pri:0, instance:com.SDET.testCases.TC005_DeleteUserRecord@4d95d2a2]" name="validateUserDeletion" duration-ms="2" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserDeletion -->
+      </class> <!-- com.SDET.testCases.TC005_DeleteUserRecord -->
+      <class name="com.SDET.testCases.TC002_GetUserDetails">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.SDET.testCases.TC002_GetUserDetails@5a1c0542]" name="setup" is-config="true" duration-ms="143" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:1, instance:com.SDET.testCases.TC002_GetUserDetails@5a1c0542]" name="checkResponseBody" duration-ms="0" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="ValidateStatusCode()[pri:2, instance:com.SDET.testCases.TC002_GetUserDetails@5a1c0542]" name="ValidateStatusCode" duration-ms="0" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateStatusCode -->
+        <test-method status="PASS" signature="tearDown()[pri:9, instance:com.SDET.testCases.TC002_GetUserDetails@5a1c0542]" name="tearDown" duration-ms="0" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SDET.testCases.TC002_GetUserDetails -->
+      <class name="com.SDET.testCases.TC003_POSTCreateUser">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.SDET.testCases.TC003_POSTCreateUser@396f6598]" name="SetUp" is-config="true" duration-ms="0" started-at="2022-05-04T20:17:20 IST" finished-at="2022-05-04T20:17:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="createNewUsers(java.lang.String,java.lang.String)[pri:0, instance:com.SDET.testCases.TC003_POSTCreateUser@396f6598]" name="createNewUsers" duration-ms="549" started-at="2022-05-04T20:17:20 IST" data-provider="createUser" finished-at="2022-05-04T20:17:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[morpheus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leader]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUsers -->
+        <test-method status="PASS" signature="createNewUsers(java.lang.String,java.lang.String)[pri:0, instance:com.SDET.testCases.TC003_POSTCreateUser@396f6598]" name="createNewUsers" duration-ms="518" started-at="2022-05-04T20:17:20 IST" data-provider="createUser" finished-at="2022-05-04T20:17:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vishu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[boss]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUsers -->
+        <test-method status="PASS" signature="tearDown()[pri:9, instance:com.SDET.testCases.TC003_POSTCreateUser@396f6598]" name="tearDown" duration-ms="0" started-at="2022-05-04T20:17:21 IST" finished-at="2022-05-04T20:17:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.SDET.testCases.TC003_POSTCreateUser -->
+    </test> <!-- RestAssuredTrainingTest -->
+  </suite> <!-- RestAssuredTrainingTest -->
+</testng-results>

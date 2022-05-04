@@ -1,0 +1,15 @@
+com\SDET\RestAPITC\TC001_GET_Request_E_Auth.class
+com\SDET\utilities\ReadingDataFromExcel.class
+com\SDET\RestAPITC\TC002_POST_Request.class
+com\SDET\testCases\TC002_GetUserDetails.class
+com\SDET\RestAPITC\TC002_POST_Request_E_DataDriven.class
+com\SDET\RestAPITC\TC001_GET_Request_D_JSONBody.class
+com\SDET\testCases\TC001_GetAllUsers.class
+com\SDET\testCases\TC005_DeleteUserRecord.class
+com\SDET\utilities\Listeners.class
+com\SDET\RestAPITC\TC001_GET_Request_A_CodeAndBody.class
+com\SDET\RestAPITC\TC001_GET_Request_B_Header.class
+com\SDET\testCases\TC003_POSTCreateUser.class
+com\SDET\RestAPITC\TC001_GET_Request_C_Headers.class
+com\SDET\utilities\RestUtils.class
+com\SDET\testCases\TC004_PUTCreateUser.class

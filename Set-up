@@ -1,0 +1,138 @@
+
+
+RestAssured - An API which is designed to automated REST Services/Rest APIs.
+
+Pre-Requisite:-
+    Java
+    TestNG
+    Maven
+
+Set-up:-
+    1. Create Maven Project
+    2. Add Following dependencies in pom.xml file:-
+          RestAssured, TestNG, Json-Simple, Apache-POI
+
+=====================================================================>>
+Validation :-
+        Status code
+        Status line
+        Response Time
+        Headers
+        Response Body:-
+                    Json Object : -JsonPath jsonPath = response.jsonPath();
+                    Json Array Object
+        Authentication :- PreemptiveBasicAuthScheme preemptiveBasicAuthScheme = new PreemptiveBasicAuthScheme();
+
+=====================================================================>>
+Process:-
+        1. Define BaseURI.
+        2. Request Object.
+        3. Response
+        4. Response Body
+
+        Example :-         RestAssured.baseURI = "https://reqres.in/api/users?page[2]";
+                           RequestSpecification httpRequest = RestAssured.given();
+                           Response response = httpRequest.request(Method.GET,"");
+                           String responseBody = response.getBody().asString();
+
+    Validation :-
+            1. Status code - getStatusCode.
+            2. Status line - getStatusLine.
+            3. Headers - User getHeader, GetHeaders,and  Header class to iterate.
+            4. JSON Object and JSON Array Object - use JsonPath jsonPath = response.jsonPath(); and jsonPath.get();
+
+
+=====================================================================>>
+
+Data Driver Test:-
+    1. Prepare test data in excel.
+    2. Add Apache Poi and ooxml dependencies in pom file.
+    3. XL util File to read data from file.
+    4. Write TestNG test with DataProvider method.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=====================================================================>>
+
+=====================================================================>>
+
+
+=====================================================================>>
+
+=====================================================================>>
+
+
+
+
+Test Case 1) Weather API - Validate status code & Status line
+
+            http://restapi.demoqa.com/utilities/weather/city/
+
+            Request Type: GET
+
+            http://restapi.demoqa.com/utilities/weather/city/Hyderabad
+
+            SUCCESS RESPONSE
+            {
+            “City”: “Hyderabad”,
+            “Temperature”: “31.49 Degree celsius”,
+            “Humidity”: “62 Percent”,
+            “Weather Description”: “scattered clouds”,
+            “Wind Speed”: “3.6 Km per hour”,
+            “Wind Direction degree”: “270 Degree”
+            }
+
+            STATUS CODE : 200
+            Status Line: HTTP/1.1 200 OK"
+
+
+Test Case 2) Register Customer API
+
+            Request Type: POST
+            http://restapi.demoqa.com/customer/register
+
+            BODY
+
+            {
+               “FirstName” : “value”
+               “LastName” : “value”,
+               “UserName” : “value”,
+               “Password” : “value”,
+               “Email”        : “Value”
+             }
+
+            SUCCESS RESPONSE
+
+            {
+            “SuccessCode”: “OPERATION_SUCCESS”,
+            “Message”: “Operation completed successfully”
+            }
+
+            STATUS CODE : 201
+
+
+Test Case 3) Google Map API - Validating Headers
+
+            https://maps.googleapis.com/maps/api/place/nearbysearch/xml?location=-33.8670522,151.1957362&radius=1500&type=supermarket&key=AIzaSyBjGCE3VpLU4lgTqSTDmHmJ2HoELb4Jy1s
+
+            SUCCESS RESPONSE : Returns list of super markets
+
+            "Headers:
+            Content-Encoding →gzip
+            Content-Type →application/xml; charset=UTF-8
+            Server →scaffolding on HTTPServer2
+            "

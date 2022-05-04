@@ -1,0 +1,101 @@
+
+FrameWork:-
+
+Objective:-
+    1. Re-usability
+    2. maintainability - Easy to understand and maintain
+----------------------------------------------------------------------------------->>>
+Task A :- Analyse, What kind of framework we need to choose.
+
+        => Predefined Framework[[TestNg,Cucumber,Robot,Junit etc.]]
+        => Customized/User-Defined Framework - including above framework.
+                    [[ DataDriver, Key Driver, Hybrid FrameWork ets.]]
+        => Hybrid Approach ->>
+                    1. RestAssured + Java 8
+                    2. TestNG
+                    3. Maven
+                    4. Jenkins (CI/CD)
+                    5. Git, GitHub
+        => API Tests are Ready.
+----------------------------------------------------------------------------------->>>
+Task B:- Implementation of Automation Framework:-
+
+    A. Implementation/Development:-
+        1. Create Maven Project and Add/Update all dependencies and plugins in pom.xml file.
+                a. restAssured
+                b. TestNG
+                c. Json-Simple - to validate json response.
+                d. Apache Poi and ooxml- for data driven - Excel file
+                e. Log4j - to record logs
+                f. extentReport - to generate report.
+        2. Create Folder Structure [[com.projectName.packageName]]
+
+            src/main/java
+                        Base Package - [[Common Artifacts]]
+                                        1. Reusable items
+
+
+            src/test/java
+                       Test-Cases Package [[All TC's]]
+                                  1. All existing TC should be under this folder.
+
+                       Utility Package - [[Common Util]]
+                                                               1. Reading json array object
+                                                               2. Reading data from Excel file
+                       Logs folder
+                       Reports folder
+                       pom.xml
+                       testNG.xml
+
+        3. Extent Report :-
+                1. Add dependencies
+                2. utility file to generate report.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    B. Execution
+
+        How many ways we can execute framework/test cases
+            1. TestNG.xml
+            2. pom.xml
+            3. Command prompt
+            4. run.bat
+            5. Jenkins
+
+        1. TestNG.xml -
+            a. Run via TestNG.xml.
+
+        2. Pom.xml
+            a. Two plugins we need to execute with pom.xml
+                1. Maven-compiler-plugin
+                2. Maven -surefire plugin
+
+        3. Execute Test acses throught prompt:-
+            a. Maven software download and installed
+            b. Set Maven Env Path
+            c. maven installed on window
+            d. open command prompt and execute:-
+                -> mvn clean install
+                ->
+
+         4.    Create run.bat file.
+
+         5. Using Jenkins:-
+            1. Download Jenkins - by exe file, by war file.
+            2. run java -jar jenkins.war in cmd.
+            3. don't close the cmd until u haven't finished ur work.
+
+
+    C. Maintenance
